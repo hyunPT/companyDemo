@@ -22,8 +22,8 @@
 <body>	
 <div class="hero-anime">
 	<!-- DB연결 -->
-	<sql:setDataSource var ="dataSource" driver="com.mysql.jdbc.Driver" url ="jdbc:mysql://34.64.223.143:3306/companyDemo"
-	user="remote" password="1pq02ow9"/>
+	<sql:setDataSource var ="dataSource" driver="com.mysql.jdbc.Driver" url ="jdbc:mysql://ip:port/database"
+	user="id" password="pw"/>
 	
 	<sql:query dataSource="${dataSource }" var="result">
 		select * from member where id=?
