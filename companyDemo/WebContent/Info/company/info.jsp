@@ -231,7 +231,7 @@
 								<br>
 
 								<div id="map" style="width: 98%; height: 600px;"></div>
-								<script type="text/javascript" src="http://dapi.kakao.com/v2/maps/sdk.js?appkey=1e9d71dff750df4d6c116679849f36c5"></script>
+								<script type="text/javascript" src="http://dapi.kakao.com/v2/maps/sdk.js?appkey=key"></script>
 								<script>
 									setTimeout(
 											function() {
