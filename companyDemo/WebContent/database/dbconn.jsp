@@ -12,9 +12,9 @@
 		Connection conn = null;
 	
 		try{
-			String url="jdbc:mysql://34.64.223.143:3306/companyDemo";
-			String user = "remote";
-			String passwd = "1pq02ow9";
+			String url="jdbc:mysql://ip:port/database";
+			String user = "id";
+			String passwd = "pw";
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(url,user,passwd);
